@@ -33,36 +33,43 @@ This project covers the following Django topics:
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone <repository-url>
 cd blog
 ```
 
 2. Create a virtual environment:
+
 ```bash
 python -m venv venv
 ```
 
 3. Activate the virtual environment:
+
    - Windows: `venv\Scripts\activate`
    - Linux/Mac: `source venv/bin/activate`
 
 4. Install dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
 
 5. Run migrations:
+
 ```bash
 python manage.py migrate
 ```
 
 6. Create a superuser:
+
 ```bash
 python manage.py createsuperuser
 ```
 
 7. Run the development server:
+
 ```bash
 python manage.py runserver
 ```

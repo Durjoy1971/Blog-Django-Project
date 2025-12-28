@@ -24,3 +24,6 @@ def post_detail(request, id):
     
     html = f'<h1>{post["title"]}</h1><p>{post["content"]}</p>'
     return HttpResponse(html)
+
+def post_home(request):
+    return render(request, 'post/home.html')
