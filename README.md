@@ -10,7 +10,7 @@ This project covers the following Django topics:
    - Setting up a Django project with Docker for containerization and ease of deployment.
 2. **URLs & Views** - Routing and request handling **(Completed)**
 3. **Templates, Context Processors & Static Files** - Frontend templating and asset management **(Completed)**
-4. **Databases, ORM & Models** - Database design and Object-Relational Mapping ** (Ongoing)**
+4. **Databases, ORM & Models** - Database design and Object-Relational Mapping **(Ongoing)**
 5. **Admin & ModelAdmin** - Django admin interface customization
 6. **Working with Forms & ModelForms** - Form handling and validation
 7. **Cookies in Django** - Managing client-side data storage
